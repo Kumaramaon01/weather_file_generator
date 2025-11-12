@@ -9,7 +9,7 @@ from urllib3.util.retry import Retry
 
 st.title("Weather File Generator")
 
-url = st.text_input("Enter webpage URL with .bin files (e.g. http://doe2.com/Download/Weather/TMY3/States_A-D/)")
+url = st.text_input("Enter webpage URL with .bin files")
 country_name = st.text_input("Enter Country Name (e.g., USA)", value="USA")
 
 if st.button("Download & Generate"):
